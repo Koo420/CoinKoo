@@ -1,12 +1,8 @@
 # CoinKoo
 A coinflip chart generator that packs a punch.
-```markdown
-# CoinKoo — Coin-Flip Candlestick Generator (GUI)
+CoinKoo — Coin-Flip Candlestick Generator (GUI)
 
 > A tiny desktop app that simulates a market by flipping a coin for each tick and draws **1–N minute candlestick charts**. Built for visuals, demos, and intuition building — **not** trading advice.
-
-![screenshot placeholder](docs/screenshot.png)
-
 ---
 
 ## ✨ Features
@@ -199,8 +195,17 @@ PNG snapshot of the generated candlestick chart using your selected styling.
   Use a virtual environment (see above).
 
 * **Combobox dropdown colors look odd**
-  The app themes dropdowns via Tk’s option database; some desktop themes can override it. Try the other app theme or a clean env/DE.
+ The app themes dropdowns via Tk’s option database; some desktop themes can override it. Try the other app theme or a clean env/DE.
 
+**Chat Control**
+
+Scroll up = zoom in centered at the mouse position
+
+Scroll down = zoom out from the mouse position
+
+Double-click on the chart = reset zoom (autoscale to data)
+
+Keyboard: + or = zooms in (center), - zooms out (center)
 
 ---
 
