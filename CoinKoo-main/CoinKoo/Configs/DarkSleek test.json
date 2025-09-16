@@ -1,0 +1,19 @@
+{
+  "theme": "Dark Sleek",
+  "num_candles": 100000,
+  "timeframe": 5.0,
+  "base_ticks": 100,
+  "override": false,
+  "eff_ticks": "",
+  "tick_size": 1.0,
+  "start_price": 10000.0,
+  "up_prob": 0.5,
+  "seed": "",
+  "auto_seed": false,
+  "up_color": "#26139a",
+  "down_color": "#ef5350",
+  "chart_bg": "#FFFFFF",
+  "grid": true,
+  "custom_name_on": false,
+  "custom_name": ""
+}
